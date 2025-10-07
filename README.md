@@ -23,6 +23,24 @@ A PowerShell module that displays a Linux-like calendar directly in your console
 
 ## Installation
 
+### From PowerShell Gallery (Recommended)
+
+Install directly from the PowerShell Gallery:
+
+```powershell
+Install-Module -Name PSCal -Scope CurrentUser
+```
+
+For system-wide installation (requires administrator privileges):
+```powershell
+Install-Module -Name PSCal -Scope AllUsers
+```
+
+Then import the module:
+```powershell
+Import-Module PSCal
+```
+
 ### Manual Installation
 
 1. Clone or download this repository:
