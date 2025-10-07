@@ -101,13 +101,13 @@ PrivateData = @{
         # LicenseUri = ''
 
         # A URL to the main website for this project.
-        # ProjectUri = ''
+        ProjectUri = 'https://github.com/imanedr/PSCal'
 
         # A URL to an icon representing this module.
         # IconUri = ''
 
         # ReleaseNotes of this module
-        ReleaseNotes = 'Fixed some minor issues.'
+        ReleaseNotes = 'new version with imporved performance and bug fixes'
 
         # Prerelease string of this module
         # Prerelease = ''
