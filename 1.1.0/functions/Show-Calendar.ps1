@@ -78,7 +78,7 @@ function Show-Calendar {
     }
     elseif ($Month) {
         $holidays = Get-Holidays -Year $toDay.Year -Month ($arrMonth.IndexOf($Month)+1)
-        Format-CalendarMonth -Title MonthAndYear -Year $toDay.Year -Month $toDay.ToString("MMMM") -holidays $holidays.Day
+        Format-CalendarMonth -Title MonthAndYear -Year $toDay.Year -Month $Month -holidays $holidays.Day
     }
     else {
         $holidays = Get-Holidays -Year $toDay.Year -Month $toDay.Month
